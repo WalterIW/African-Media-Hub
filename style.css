@@ -1,0 +1,39 @@
+.custom-navbar {
+    position: absolute; 
+    margin-top: 20px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    background-color: #ffffff; 
+    padding:0 10px;
+    border-radius: 20px;
+    max-width: 1200px;
+    width: 80%;
+    height: fit-content;
+  
+    }
+    .navbar-toggler-icon{
+      background-color: #333;
+      width: 30px;
+      height: 3px;
+      display: block;
+      margin: 5px auto;
+      border-radius: 2px;
+
+    }
+    .nav-link:hover, .nav-link:focus {
+      color: #fff !important;
+      background-color: #383838 !important; 
+      border-radius: 5px; 
+    }
+    .nav-link:active {
+      background-color: #383838 !important;
+    }
+    .btn-primary:hover {
+      background-color: #383838 !important;
+      color: #fff !important; 
+      border-color: #000; 
+      transform: scale(1.05); 
+      transition: all 0.3s ease; 
+    }
